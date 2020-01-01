@@ -1,0 +1,10 @@
+logging:
+  level:
+   ge.vakho.selenium_google_translate: debug
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 
+        - "*"
